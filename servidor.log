@@ -1,0 +1,30 @@
+2026-11-25 18:21:11,295 | INFO | MainThread | Servidor iniciado | direccion=127.0.0.1:5000
+2026-11-25 18:21:12,087 | INFO | Cliente-127.0.0.1-54762 | Cliente conectado | direccion=('127.0.0.1', 54762)
+2026-11-25 18:21:12,087 | INFO | Cliente-127.0.0.1-54762 | Comando procesado | cliente=('127.0.0.1', 54762) | comando=MAYUSCULAS
+2026-11-25 18:21:12,087 | INFO | Cliente-127.0.0.1-54762 | Comando procesado | cliente=('127.0.0.1', 54762) | comando=LONGITUD
+2026-11-25 18:21:12,087 | INFO | Cliente-127.0.0.1-54762 | Comando procesado | cliente=('127.0.0.1', 54762) | comando=INVERTIR
+2026-11-25 18:21:12,088 | WARNING | Cliente-127.0.0.1-54762 | Petición con error | cliente=('127.0.0.1', 54762) | error=Comando desconocido: BORRAR
+2026-11-25 18:21:12,088 | WARNING | Cliente-127.0.0.1-54762 | Petición con error | cliente=('127.0.0.1', 54762) | error=El campo texto debe ser una cadena
+2026-11-25 18:21:12,088 | WARNING | Cliente-127.0.0.1-54762 | Petición con error | cliente=('127.0.0.1', 54762) | error=El campo texto debe ser una cadena
+2026-11-25 18:21:12,088 | WARNING | Cliente-127.0.0.1-54762 | Petición con error | cliente=('127.0.0.1', 54762) | error=El campo texto debe ser una cadena
+2026-11-25 18:21:12,088 | WARNING | Cliente-127.0.0.1-54762 | JSON inválido | cliente=('127.0.0.1', 54762) | error=Expecting ',' delimiter: line 1 column 25 (char 24)
+2026-11-25 18:21:12,088 | INFO | Cliente-127.0.0.1-54762 | Comando procesado | cliente=('127.0.0.1', 54762) | comando=MAYUSCULAS
+2026-11-25 18:21:12,088 | INFO | Cliente-127.0.0.1-54762 | Comando procesado | cliente=('127.0.0.1', 54762) | comando=SALIR
+2026-11-25 18:21:12,088 | INFO | Cliente-127.0.0.1-54762 | Cierre solicitado | cliente=('127.0.0.1', 54762)
+2026-11-25 18:21:12,088 | INFO | Cliente-127.0.0.1-54762 | Worker finalizado | hilo=Cliente-127.0.0.1-54762 | cliente=('127.0.0.1', 54762)
+2026-11-25 18:21:12,131 | INFO | Cliente-127.0.0.1-54763 | Cliente conectado | direccion=('127.0.0.1', 54763)
+2026-11-25 18:21:12,131 | INFO | Cliente-127.0.0.1-54763 | Comando procesado | cliente=('127.0.0.1', 54763) | comando=MAYUSCULAS
+2026-11-25 18:21:12,131 | INFO | Cliente-127.0.0.1-54763 | Comando procesado | cliente=('127.0.0.1', 54763) | comando=SALIR
+2026-11-25 18:21:12,131 | INFO | Cliente-127.0.0.1-54763 | Cierre solicitado | cliente=('127.0.0.1', 54763)
+2026-11-25 18:21:12,131 | INFO | Cliente-127.0.0.1-54763 | Worker finalizado | hilo=Cliente-127.0.0.1-54763 | cliente=('127.0.0.1', 54763)
+2026-11-25 18:21:12,345 | INFO | Cliente-127.0.0.1-54764 | Cliente conectado | direccion=('127.0.0.1', 54764)
+2026-11-25 18:21:12,345 | INFO | Cliente-127.0.0.1-54764 | Comando procesado | cliente=('127.0.0.1', 54764) | comando=INVERTIR
+2026-11-25 18:21:12,345 | INFO | Cliente-127.0.0.1-54764 | Comando procesado | cliente=('127.0.0.1', 54764) | comando=SALIR
+2026-11-25 18:21:12,345 | INFO | Cliente-127.0.0.1-54764 | Cierre solicitado | cliente=('127.0.0.1', 54764)
+2026-11-25 18:21:12,345 | INFO | Cliente-127.0.0.1-54764 | Worker finalizado | hilo=Cliente-127.0.0.1-54764 | cliente=('127.0.0.1', 54764)
+2026-11-25 18:21:12,399 | INFO | Cliente-127.0.0.1-54765 | Cliente conectado | direccion=('127.0.0.1', 54765)
+2026-11-25 18:21:32,400 | WARNING | Cliente-127.0.0.1-54765 | Timeout | cliente=('127.0.0.1', 54765) | limite=20s
+2026-11-25 18:21:32,400 | INFO | Cliente-127.0.0.1-54765 | Worker finalizado | hilo=Cliente-127.0.0.1-54765 | cliente=('127.0.0.1', 54765)
+2026-11-25 18:21:32,903 | WARNING | MainThread | Parada solicitada desde el teclado
+2026-11-25 18:21:32,903 | INFO | MainThread | Esperando a los workers
+2026-11-25 18:21:32,903 | INFO | MainThread | Servidor finalizado
